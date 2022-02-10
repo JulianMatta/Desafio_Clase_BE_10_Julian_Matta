@@ -2,11 +2,15 @@
     box-sizing: border-box;
   }
 
+h1 {
+  text-align: center;
+}
+
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
-    width: 50%;
+    width: 80%;
   }
 
 /* Clear floats after the columns */
@@ -43,18 +47,23 @@ input[type=text] {
   }
 
   input[type=submit] {
-    background-color: #4CAF50;
+
+    margin-top: 1rem;
+    background-color: red;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     float: right;
+
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    
+    background-color: orange;
   }
+
 
   table {
     border-collapse: collapse;
@@ -69,6 +78,11 @@ input[type=text] {
   tr:nth-child(even){background-color: #f2f2f2}
   
   th {
-    background-color: #04AA6D;
+    background-color: grey;
     color: white;
+  }
+
+  #listadoProductos {
+    display: flex;
+    
   }
